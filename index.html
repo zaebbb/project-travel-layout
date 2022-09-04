@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOURIST-PRO</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/font-awesome.min.css">
+
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <header class="container__header">
+        <div class="container__header--logo">
+            <img class="container__header--logo__icon" src="./images/header-logo.png">
+        </div>
+        <nav class="container__header--nav">
+            <ul class="container__header--list">
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Акции</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Поиск</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">О нас</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Контакты</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--btn btn">Заказать тур</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container__header--menu">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="container__main">
+        <section class="container__stocks">
+            <h3 class="section__heading">Акции</h3>
+            <ul class="container__stocks--list">
+                <li class="container__stocks--item">
+                    <img src="./images/stocks_1.jpg" class="container__stocks--image">
+                    <h3 class="container__stocks--heading">Акция 1<i class="fa fa-angle-right"></i></h3>
+                    <p class="container__stocks--description">Описание акции в последствии будет переименована</p>
+                    <a href="#" class="container__stocks--link btn">Подробнее</a>
+                </li>
+                <li class="container__stocks--item">
+                    <img src="./images/stocks_2.jpg" class="container__stocks--image">
+                    <h3 class="container__stocks--heading">Акция 2<i class="fa fa-angle-right"></i></h3>
+                    <p class="container__stocks--description">Описание акции в последствии будет переименована</p>
+                    <a href="#" class="container__stocks--link btn">Подробнее</a>
+                </li>
+                <li class="container__stocks--item">
+                    <img src="./images/stocks_3.jpg" class="container__stocks--image">
+                    <h3 class="container__stocks--heading">Акция 3<i class="fa fa-angle-right"></i></h3>
+                    <p class="container__stocks--description">Описание акции в последствии будет переименована</p>
+                    <a href="#" class="container__stocks--link btn">Подробнее</a>
+                </li>
+                <li class="container__stocks--item">
+                    <img src="./images/stocks_4.jpg" class="container__stocks--image">
+                    <h3 class="container__stocks--heading">Акция 4<i class="fa fa-angle-right"></i></h3>
+                    <p class="container__stocks--description">Описание акции в последствии будет переименована</p>
+                    <a href="#" class="container__stocks--link btn">Подробнее</a>
+                </li>
+                <li class="container__stocks--item">
+                    <img src="./images/stocks_5.jpg" class="container__stocks--image">
+                    <h3 class="container__stocks--heading">Акция 5<i class="fa fa-angle-right"></i></h3>
+                    <p class="container__stocks--description">Описание акции в последствии будет переименована</p>
+                    <a href="#" class="container__stocks--link btn">Подробнее</a>
+                </li>
+                <li class="container__stocks--item more__stocks">
+                    <a href="#" class="container__stocks--link">Больше акций <i class="fa fa-angle-right"></i></a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="container__search">
+            <h3 class="section__heading">Поиск</h3>
+            <form action="search.html" class="container__search--form">
+                <label class="container__search--label">
+                    <span class="container__search--text">Регион</span>
+                    <select type="text" class="container__search--input">
+                        <option selected disabled>Регион</option>
+                        <option value="Регион 1">Регион 1</option>
+                    </select>
+                </label>
+                <label class="container__search--label">
+                    <span class="container__search--text">Дата</span>
+                    <input type="date" value="2022-01-01" class="container__search--input">
+                </label>
+                <label class="container__search--label">
+                    <span class="container__search--text">Кол-во участников</span>
+                    <input type="number" min="1" placeholder="1 участник"  class="container__search--input">
+                </label>
+                <label class="container__search--label">
+                    <span class="container__search--text">Уровень подготовки</span>
+                    <select type="text" class="container__search--input">
+                        <option selected disabled>Уровень подготовки</option>
+                        <option>Начальный</option>
+                        <option>Средний</option>
+                        <option>Профессиональный</option>
+                    </select>
+                </label>
+                <label class="container__search--label">
+                    <input type="submit" class="container__search--btn btn" value="Поиск">
+                </label>
+            </form>
+        </section>
+
+        <section class="container__about">
+            <h3 class="section__heading">О компании</h3>
+            <div class="container__about--info">
+                <h3 class="container__about--heading__info">Общая информация</h3>
+                <h3 class="container__about--purpose">Цель нашей компании</h3>
+                <p class="container__about--slogan">Здесь будет указан девиз нашей компании</p>
+                <h3 class="container__about--heading__info">Отзывы</h3>
+                <ul class="container__about--list">
+                    <li class="container__about--item">
+                        <img src="./images/face_1.png" class="container__about--icon">
+                        <h3 class="container__about--heading">Владимир</h3>
+                        <p class="container__about--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti vitae debitis, veritatis cum exercitationem voluptatum voluptatibus?</p>
+                    </li>
+                    <li class="container__about--item">
+                        <img src="./images/face_2.png" class="container__about--icon">
+                        <h3 class="container__about--heading">Алексей</h3>
+                        <p class="container__about--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti vitae debitis, veritatis cum exercitationem voluptatum voluptatibus?</p>
+                    </li>
+                    <li class="container__about--item">
+                        <img src="./images/face_3.png" class="container__about--icon">
+                        <h3 class="container__about--heading">Екатерина</h3>
+                        <p class="container__about--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti vitae debitis, veritatis cum exercitationem voluptatum voluptatibus?</p>
+                    </li>
+                    <li class="container__about--item">
+                        <img src="./images/face_4.png" class="container__about--icon">
+                        <h3 class="container__about--heading">Егор</h3>
+                        <p class="container__about--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti vitae debitis, veritatis cum exercitationem voluptatum voluptatibus?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container__subscription">
+            <h3 class="section__heading">Подписка на закрытые акции</h3>
+            <form class="container__subscription--form">
+                <input type="email" class="container__subscription--input" placeholder="example.com">
+                <input type="submit" class="container__subscription--btn btn" value="Подписаться">
+            </form>
+        </section>
+
+        <section class="container__booking">
+            <h3 class="section__heading">Процесс бронирования</h3>
+            <div class="container__booking--animation__banner">
+                <div class="container__booking--content">
+                    <div class="container__booking--slide slide__1 active__slide">
+                        <h4 class="container__booking--subheading">Шаг 1</h4>
+                        <h3 class="container__booking--heading">Оформление</h3>
+                        <p class="container__booking--description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere, sit cum placeat laudantium alias officiis voluptas dolore rem id?</p>
+                    </div>
+                    <div class="container__booking--slide slide__2">
+                        <h4 class="container__booking--subheading">Шаг 2</h4>
+                        <h3 class="container__booking--heading">Занесение в БД</h3>
+                        <p class="container__booking--description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere, sit cum placeat laudantium alias officiis voluptas dolore rem id?</p>
+                    </div>
+                    <div class="container__booking--slide slide__3">
+                        <h4 class="container__booking--subheading">Шаг 3</h4>
+                        <h3 class="container__booking--heading">Уведомление</h3>
+                        <p class="container__booking--description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere, sit cum placeat laudantium alias officiis voluptas dolore rem id?</p>
+                    </div>
+                    <div class="container__booking--slide slide__4">
+                        <h4 class="container__booking--subheading">Шаг 4</h4>
+                        <h3 class="container__booking--heading">Тур</h3>
+                        <p class="container__booking--description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere, sit cum placeat laudantium alias officiis voluptas dolore rem id?</p>
+                    </div>
+                </div>
+                <div class="container__booking--arrows">
+                    <div class="container__booking--arrow__left">
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                    <div class="container__booking--arrow__right">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="container__footer">
+        <a href="tel:88005553310" class="container__footer--phone">8 (800) 555-33-10</a>
+        <ul class="container__footer--list">
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Акции</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Поиск</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">О нас</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Контакты</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Заказать тур</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

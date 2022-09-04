@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOURIST-PRO</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/font-awesome.min.css">
+
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <header class="container__header">
+        <div class="container__header--logo">
+            <img class="container__header--logo__icon" src="./images/header-logo.png">
+        </div>
+        <nav class="container__header--nav">
+            <ul class="container__header--list">
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Акции</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Поиск</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">О нас</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--link">Контакты</a>
+                </li>
+                <li class="container__header--item">
+                    <a href="#" class="container__header--btn btn">Заказать тур</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container__header--menu">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="container__main">
+        <section class="container__booking">
+            <h3 class="section__heading">Заказ</h3>
+            <form class="container__booking--form">
+                <div class="container__booking--form__container">
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Регион</span>
+                        <select type="text" class="container__search--input">
+                            <option selected>Свердловская область</option>
+                            <option value="Регион 1">Сибирь</option>
+                        </select>
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Маршрут</span>
+                        <input type="text" value="Катание на карете" class="container__search--input">
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Зоны для посещения</span>
+                        <select multiple class="container__search--input">
+                            <option selected>Мыс сырный</option>
+                            <option selected>Озеро байкальское</option>
+                            <option selected>Тренажер немытый</option>
+                            <option>Овес мятый</option>
+                        </select>
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Дата</span>
+                        <input type="date" value="2022-01-01" class="container__search--input">
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Кол-во участников</span>
+                        <input type="number" min="1" value="3" placeholder="1 участник"  class="container__search--input">
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <span class="container__search--text">Стоимость</span>
+                        <input type="number" value="8000" class="container__search--input">
+                    </label>
+                </div>
+                <div class="container__booking--form__container">
+                    <label class="container__search--label checkbox__box" for="provod">
+                        <span class="container__search--text checkbox__input--text">Аренда проводника</span>
+                        <input type="checkbox" id="provod" class="container__search--input checkbox__input--input">
+                    </label>
+                    <label class="container__search--label checkbox__box" for="technology">
+                        <span class="container__search--text checkbox__input--text">Аренда тур. оборудования</span>
+                        <input type="checkbox" id="technology" class="container__search--input checkbox__input--input">
+                    </label>
+                    <label class="container__search--label checkbox__box" for="photography">
+                        <span class="container__search--text checkbox__input--text">Аренда фотографа</span>
+                        <input type="checkbox" id="photography" class="container__search--input checkbox__input--input">
+                    </label>
+                    <label class="container__search--label checkbox__box" for="strahovka">
+                        <span class="container__search--text checkbox__input--text">Страховка</span>
+                        <input type="checkbox" id="strahovka" class="container__search--input checkbox__input--input">
+                    </label>
+                </div>
+                <div class="container__booking--form__container">
+                    <label class="container__search--label box__message">
+                        <span class="container__search--text">Комментарий</span>
+                        <textarea class="container__search--input input__message"></textarea>
+                    </label>
+                </div>
+                <div class="container__booking--form__container">
+                    <label class="container__search--label booking__input booking__email">
+                        <span class="container__search--text">Электронная почта</span>
+                        <input type="email" placeholder="example.com" class="container__search--input">
+                    </label>
+                </div>
+                <div class="container__booking--form__container booking__send">
+                    <label class="container__search--label booking__input booking__email booking__final__price">
+                        <span class="container__search--text">Итоговая сумма</span>
+                        <input type="number" value="18000" class="container__search--input">
+                    </label>
+                    <label class="container__search--label booking__input">
+                        <input type="submit" class="container__search--btn btn" value="Оформить">
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="container__footer">
+        <a href="tel:88005553310" class="container__footer--phone">8 (800) 555-33-10</a>
+        <ul class="container__footer--list">
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Акции</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Поиск</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">О нас</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Контакты</a>
+            </li>
+            <li class="container__footer--item">
+                <a href="#" class="container__footer--link">Заказать тур</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
